@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khushi Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<header>
+    <nav>
+        <h2 class="logo">Khushi</h2>
+
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <button id="theme-toggle">🌙</button>
+    </nav>
+</header>
+
+<!-- Hero -->
+<section id="home" class="hero">
+    <div class="hero-content">
+
+        <img src="images/profile.jpg" alt="Profile" class="profile-img">
+
+        <h1>Hi, I'm Khushi 👋</h1>
+        <h2 id="typing"></h2>
+
+        <p>Building modern and creative web experiences.</p>
+
+        <div class="social-links">
+            <a href="https://github.com/" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/" target="_blank">LinkedIn</a>
+        </div>
+
+        <button onclick="scrollToSection('projects')">View My Work Below</button>
+    </div>
+</section>
+
+<!-- About -->
+<section id="about" class="about glass">
+    <h2>About Me --</h2>
+    <p>
+        I'm a B.Tech CSE student passionate about web development,
+        creating beautiful UI designs and solving real-world problems.
+    </p>
+</section>
+
+<!-- Projects -->
+<section id="projects">
+    <h2>My Projects</h2>
+
+    <div class="project-container">
+        <div class="project-card glass">
+            <h3>Travel Agency Website</h3>
+            <p>Modern responsive travel agency website.</p>
+        </div>
+
+        <div class="project-card glass">
+            <h3>Hospital Comparison App</h3>
+            <p>Compare hospital service's using data analysis.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="contact glass">
+    <h2>Contact Me</h2>
+    <p>Email: khushi1506s@email.com</p>
+    <button onclick="showMessage()">Say Hello to mee! 👋</button>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
