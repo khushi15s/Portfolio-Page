@@ -11,8 +11,12 @@
 ---
 
 ## 🖼️ Preview
+<img width="1349" height="630" alt="image" src="https://github.com/user-attachments/assets/c9687f5a-ef67-45e9-887d-0a4a325e79a3" />
+<img width="1330" height="624" alt="image" src="https://github.com/user-attachments/assets/e59bb8f0-876f-467e-ab83-ffa3827813d8" />
+<img width="1327" height="627" alt="image" src="https://github.com/user-attachments/assets/cb9a0306-df6b-49ab-80cd-b19395d7163d" />
 
-![Portfolio Screenshot](images/profile.jpg)
+
+
 
 ---
 
